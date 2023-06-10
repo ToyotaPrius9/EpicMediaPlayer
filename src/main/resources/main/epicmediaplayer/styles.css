@@ -1,0 +1,20 @@
+.list-view {
+    -fx-background-color: black;
+}
+
+.list-view:focused {
+    -fx-background-color: black;
+}
+
+.list-view .list-cell {
+    -fx-background-color: grey;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: blue;
+}
+
+.list-cell {
+    -fx-pref-height: 60px; /* Set the height of each cell */
+    -fx-font-size: 22px; /* Set the font size of the cell's content */
+}
